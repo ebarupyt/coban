@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/login.css" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bienvenido/a</title>
+  </head>
+  <body>
+    <div class="row login">
+      <div class="col s12 l4 offset-l4">
+        <div class="card">
+          <div class="card-action blue white-text">
+            <h3>Ingresar</h3>
+          </div>
+
+          <div class="card-content">
+            <div class="form-field">
+              <label for="username">Usuario</label>
+              <input type="text" id="username" />
+            </div>
+            <br />
+
+            <div class="form-field">
+              <label for="password">Clave</label>
+              <input type="password" id="password" />
+            </div>
+            <br />
+            <div class="form-field">
+              <input type="checkbox" id="remember" />
+              <label for="remember">Recuerdame</label>
+            </div>
+
+            <div class="form-field center-align">
+              <button onclick="login()" class="btn-large red">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
